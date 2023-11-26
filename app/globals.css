@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  --line-color: #e5e7eb;
+}
+
+html.dark {
+  --line-color: rgba(255, 255, 255, 0.2);
+}
+
+.borderBlack {
+  @apply border border-black/10;
+}
+
+
+.contacts_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  max-width: 1052px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.contacts_section form{
+  width: 100%;
+  margin-top: 50px;
+}
+#contact{
+  width: 100%;
+}
+.animation_block{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  right: -45px;
+  top: -55px;
+}
+.animation_block canvas{
+  width: 600px !important;
+  height: 500px !important;
+}
+.back-home-btn {
+  width: 120px;
+  height: 45px;
+  border-radius: 12px;
+  background: white;
+  color: black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  transition: 0.3s;
+}
