@@ -35,28 +35,36 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated National Polytechnic  University of Armenia",
+    location: "Erevan",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "In the 4th year i immediately found a job as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2020",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Studio One",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Aapplication layout and functionality writing using HTML/CSS, JavaScript, Bootstrap, Php, MySql development of component or application logic thinking through application architecture search and evaluation of solutions refactoring and optimization of current functionality setting up and optimizing the project build",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "React Js Developer",
+    location: "IT Fabers LLC",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Creating online stores using React Js, Node js ,  Development of multi-user and cross-browser applications Implementation and support of security features.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - 2023",
+  },
+  {
+    title: "React/Next Js Developer",
+    location: "LIGHT",
+    description:
+      "Development and optimization of the user interface, Working with designers and back-end developers, Development of multi-user and cross-browser applications,Performance optimization, Implementation and support of security features... Main technologies React Redux, TypeScript, RestFull, Mango Db",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] as const;
 
@@ -94,14 +102,18 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
+  "GitHub",
+  "GitLab",
+  "Redux / Toolkit",
   "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "SCSS/SASS",
+  "Bootsrtap",
+  "Material UI",
+  "UiKit",
+  "Docer",
   "Framer Motion",
+  "SQL/MySql",
+  "Php/Laravel",
+  "Python",
+  "C++ , MFC App",
 ] as const;
