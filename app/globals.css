@@ -119,3 +119,20 @@ html.dark {
   height: 100%;
   object-fit: cover;
 }
+
+@media  (max-width: 575px) {
+  .contacts_section {
+    grid-template-columns: 1fr;
+  }
+  .animation_block {
+    right: auto;
+    top: 0;
+  }
+  .animation_block canvas {
+    width: 370px !important;
+    height: 350px !important;
+  }
+  .projects_grid {
+    grid-template-columns: 1fr;
+  }
+}
