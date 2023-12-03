@@ -5,6 +5,15 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import todoImg from "@/public/toDo.png";
+import cryptoImg from "@/public/cryptoExchange.png";
+import cinemaImg from "@/public/cinemaApp.png";
+import velasImg from "@/public/velas.png";
+import bonappImg from "@/public/Bonapp.png";
+import artshaniImg from "@/public/artshani.png";
+
+
+
 
 export const links = [
   {
@@ -70,25 +79,51 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    title: "Crypto Exchange ",
+    description: "Buy / Sell / Exchange cryptocurrency with the best commission 🤝 !!!",
+    webLink:  "https://cryptoexchangearmenia.am/",
+    tags: ["React", "Theree.js" , "SCSS" , "REST" , "GoogleMap", "EmailJS" , "UiKit"],
+    imageUrl: cryptoImg,
   },
   {
-    title: "rmtDev",
+    title: "Cinema App", 
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Cinema Website for whatch films and trailers with a sorting algorithm 🎬",
+      webLink:  "https://cinema-app-iota.vercel.app/",
+      tags: ["React", "RestFull", "scss", "Spring", "Json"],
+    imageUrl: cinemaImg,
   },
   {
-    title: "Word Analytics",
+    title: "Bonapp",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Table booking platform with animated solutions 🍽",
+      webLink:  "https://bonapp-app.vercel.app/",
+      tags: ["React", "Scss", "spring", "mui", "mangoDb" , "Bootstrap"],
+    imageUrl: bonappImg,
+  },
+  {
+    title: "Artshani",
+    description:
+      "The company produces natural fruit juices Artshani and Darvita 🍷",
+      webLink:  "https://bonapp-app.vercel.app/",
+      tags: ["HTML", "Scss", "Jquery", "bootstrap", "mySql" , "php"],
+    imageUrl: artshaniImg,
+  },
+  {
+    title: "To Do",
+    description:
+      "My First React/Redux Project ToDo app  ✅",
+      webLink:  "https://react-to-do-murex.vercel.app/",
+      tags: ["React", "Scss", "Redux", "MangoDB", "RestAPI" , "Bootstrap"  ],
+    imageUrl: todoImg,
+  },
+  {
+    title: "Velas",
+    description:
+      "Ship information and contact platform  ⚓",
+      webLink:  "https://velas-eight.vercel.app/",
+      tags: ["React", "Scss", "Slick", "Spring", "FancyBox" , "Validate" , "Routing" ],
+    imageUrl: velasImg,
   },
 ] as const;
 

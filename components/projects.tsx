@@ -10,9 +10,14 @@ export default function Projects() {
   const { ref } = useSectionInView("Projects", 0.5);
 
   return (
-    <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
+    <section ref={ref} id="projects" className="scroll-mt-28 mb-28 max-w-[65rem] ">
       <SectionHeading>My projects</SectionHeading>
-      <div>
+      <p className="mb-3 text-center leading-8 ">
+      I worked on more than 70 projects, such as {" "}
+        <span className="font-medium">zigzag.am, miniso.am, lagalleria.am, uno-shouse.am, eldorado.am, artashat-vincon.am, fortunahome.am, altech.am, armauthor.am, arilori.am, redcross.am, ohmenergy.am </span> 
+       <br /><span className="italic">and others ...</span>
+      </p>
+      <div className="projects_grid">
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>
             <Project {...project} />

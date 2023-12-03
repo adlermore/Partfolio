@@ -14,7 +14,6 @@ html.dark {
   @apply border border-black/10;
 }
 
-
 .contacts_section {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -57,4 +56,66 @@ html.dark {
   justify-content: center;
   transform: translate(-50%, -50%);
   transition: 0.3s;
+}
+.projects_grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  max-width: 1050px;
+}
+.project_title{
+  transition: 0.3s;
+}
+.project_title:hover{
+  color: rebeccapurple;
+}
+.project_inner{
+  padding: 0;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow: hidden;
+}
+.project_skills{
+  margin-top: 15px !important;
+}
+.project_inner:hover img{
+  transform: scale(1.2);
+}
+.project_inner:hover .project_img:before{
+  background: rgba(0,0,0 ,  0.01);
+}
+.project_info{
+  padding: 20px;
+}
+.project_img{
+  width: 100%;
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+.project_img::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  bottom: 0;
+  transition: 0.5s;
+  background: rgba(0,0,0 ,  0.2);
+}
+
+.project_img img{
+  transition: 0.5s;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
