@@ -97,7 +97,7 @@ export const projectsData = [
     title: "Bonapp",
     description:
       "Table booking platform with animated solutions 🍽",
-      webLink:  "https://bonapp-app.vercel.app/",
+      webLink:  "https://bonapp.vercel.app/",
       tags: ["React", "Scss", "spring", "mui", "mangoDb" , "Bootstrap"],
     imageUrl: bonappImg,
   },
