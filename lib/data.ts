@@ -2,17 +2,13 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
-import todoImg from "@/public/toDo.png";
+import { GiMedal } from "react-icons/gi";
+import eldoradoimg from "@/public/eldoradoimg.png";
 import cryptoImg from "@/public/cryptoExchange.png";
-import cinemaImg from "@/public/cinemaApp.png";
+import cinemaImg from "@/public/frejaimg.png";
 import velasImg from "@/public/velas.png";
 import bonappImg from "@/public/Bonapp.png";
 import artshaniImg from "@/public/artshani.png";
-
-
 
 
 export const links = [
@@ -53,18 +49,16 @@ export const experiencesData = [
   },
   {
     title: "Front-End Developer",
-    location: "Studio One",
+    location: "STUDIO ONE",
     description:
       "Aapplication layout and functionality writing using HTML/CSS, JavaScript, Bootstrap, Php, MySql development of component or application logic thinking through application architecture search and evaluation of solutions refactoring and optimization of current functionality setting up and optimizing the project build",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
   {
-    title: "React Js Developer",
-    location: "IT Fabers LLC",
-    description:
-      "Creating online stores using React Js, Node js ,  Development of multi-user and cross-browser applications Implementation and support of security features.",
-    icon: React.createElement(CgWorkAlt),
+    title: "Military experience ",
+    location : "Armenian army",
+    icon: React.createElement(GiMedal),
     date: "2021 - 2023",
   },
   {
@@ -73,7 +67,15 @@ export const experiencesData = [
     description:
       "Development and optimization of the user interface, Working with designers and back-end developers, Development of multi-user and cross-browser applications,Performance optimization, Implementation and support of security features... Main technologies React Redux, TypeScript, RestFull, Mango Db",
     icon: React.createElement(FaReact),
-    date: "2023 - present",
+    date: "2023 - 2024",
+  },
+  {
+    title: "React/Next js Developer",
+    location: "LOGIX SOFTWARE",
+    description:
+      "Developing and maintaining scalable web applications using React and Next.js. Writing clean, maintainable code in TypeScript. Implementing responsive designs and ensuring cross-browser compatibility. Optimizing application performance and loading speeds.      ",
+    icon: React.createElement(FaReact),
+    date: "2024 - present",
   },
 ] as const;
 
@@ -84,14 +86,6 @@ export const projectsData = [
     webLink:  "https://cryptoexchangearmenia.am/",
     tags: ["React", "Theree.js" , "SCSS" , "REST" , "GoogleMap", "EmailJS" , "UiKit"],
     imageUrl: cryptoImg,
-  },
-  {
-    title: "Cinema App", 
-    description:
-      "Cinema Website for whatch films and trailers with a sorting algorithm 🎬",
-      webLink:  "https://cinema-app-iota.vercel.app/",
-      tags: ["React", "RestFull", "scss", "Spring", "Json"],
-    imageUrl: cinemaImg,
   },
   {
     title: "Bonapp",
@@ -110,21 +104,31 @@ export const projectsData = [
     imageUrl: artshaniImg,
   },
   {
-    title: "To Do",
+    title: "Freja & Son", 
     description:
-      "My First React/Redux Project ToDo app  ✅",
-      webLink:  "https://react-to-do-murex.vercel.app/",
-      tags: ["React", "Scss", "Redux", "MangoDB", "RestAPI" , "Bootstrap"  ],
-    imageUrl: todoImg,
+      "Import & Distribution Retail , Horeca and etc Food Service  🍛",
+      webLink:  "https://www.freja.am/am/",
+      tags: ["React", "RestFull", "scss", "Spring", "Json"],
+    imageUrl: cinemaImg,
   },
   {
     title: "Velas",
     description:
-      "Ship information and contact platform  ⚓",
+      "Ship information  , yacht charters  and contact platform  ⚓",
       webLink:  "https://velas-eight.vercel.app/",
       tags: ["React", "Scss", "Slick", "Spring", "FancyBox" , "Validate" , "Routing" ],
     imageUrl: velasImg,
   },
+  {
+    title: "Eldorado.am",
+    description:
+      "Online Shop Eldorado for Armenian Users 🛍️",
+      webLink:  "https://eldorado.am/",
+      tags: ["Html5", "Scss", "Jquery", "Ajax", "FancyBox" , "Validate" , "Routing" ],
+    imageUrl: eldoradoimg,
+  },
+
+
 ] as const;
 
 export const skillsData = [
@@ -133,6 +137,7 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
+  "React Native",
   "Next.js",
   "Node.js",
   "Git",
