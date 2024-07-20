@@ -38,7 +38,16 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
+
+type Experience = {
+  date: string;
+  title: string;
+  location: string;
+  description: string;
+  icon: React.ReactNode;
+};
+
+export const experiencesData: ReadonlyArray<Experience> = [
   {
     title: "Graduated National Polytechnic  University of Armenia",
     location: "Erevan",
@@ -57,6 +66,7 @@ export const experiencesData = [
   },
   {
     title: "Military experience ",
+    description: '',
     location : "Armenian army",
     icon: React.createElement(GiMedal),
     date: "2021 - 2023",
