@@ -109,7 +109,7 @@ export const projectsData = [
     title: "Artshani",
     description:
       "The company produces natural fruit juices Artshani and Darvita 🍷",
-      webLink:  "https://bonapp-app.vercel.app/",
+      webLink:  "https://artshani.com/",
       tags: ["HTML", "Scss", "Jquery", "bootstrap", "mySql" , "php"],
     imageUrl: artshaniImg,
   },
