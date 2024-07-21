@@ -16,7 +16,7 @@ export const metadata = {
   keywords: ['Next.js', 'React', 'JavaScript'],
   generator: 'Next.js',
   openGraph: {
-    images: '/circleImage.jpeg',
+    images: '/userPng.png',
   },
 };
 
