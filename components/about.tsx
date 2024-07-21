@@ -18,6 +18,7 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
+      <h1 className="hidden">Ashot Karapetyan Portfolio Website</h1>
       <p className="mb-3">
         After graduating from Sisian High School I entered the Faculty of{" "}
         <span className="font-medium">Software Engineering</span>  of the National Polytechnic University of Armenia and began studying the World of Programming.

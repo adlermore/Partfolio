@@ -15,8 +15,12 @@ export const metadata = {
   creator: 'Ashot Karapetyan',
   keywords: ['Next.js', 'React', 'JavaScript'],
   generator: 'Next.js',
+  authors: [{ name: 'Ashot Karapetyan' }],
   openGraph: {
     images: '/userPng.png',
+    title: "Ashot Karapetyan Personal Portfolio Website",
+    description: "I am a FrontEnd developer with 3+ years of experience.",
+    creator: 'Ashot Karapetyan',
   },
 };
 
