@@ -21,7 +21,7 @@ export default function About() {
       <p className="mb-3">
         After graduating from Sisian High School I entered the Faculty of{" "}
         <span className="font-medium">Software Engineering</span>  of the National Polytechnic University of Armenia and began studying the World of Programming.
-        <span className="italic">My favorite part of programming</span> is the
+        <br /><span className="itlic">My favorite part of programming</span> is the
         problem-solving aspect. I love the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}

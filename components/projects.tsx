@@ -17,7 +17,7 @@ export default function Projects() {
         <span className="font-medium">zigzag.am, miniso.am, lagalleria.am, uno-shouse.am, eldorado.am, artashat-vincon.am, fortunahome.am, altech.am, armauthor.am, arilori.am, redcross.am, ohmenergy.am </span> 
        <br /><span className="italic">and others ...</span>
       </p>
-      <div className="projects_grid">
+      <div className="projects_grid mt-[50px]">
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>
             <Project {...project} />

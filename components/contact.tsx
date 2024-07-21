@@ -32,7 +32,6 @@ export default function Contact() {
       }}
     >
       <SectionHeading>Contact me</SectionHeading>
-
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Please contact me directly at{" "}
         <a className="underline" href="mailto:ashkarapetyan98@gmail.com">
@@ -40,9 +39,9 @@ export default function Contact() {
         </a>{" "}
         or through this form.
       </p>
-      <div className="contacts_section">
+      <div className="contacts_section mt-[25px]">
         <form
-          className="mt-10 flex flex-col dark:text-black"
+          className="mt-20 flex flex-col dark:text-black"
           action={async (formData) => {
             const { data, error } = await sendEmail(formData);
 
@@ -63,7 +62,7 @@ export default function Contact() {
             placeholder="Your email"
           />
           <textarea
-            className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+            className="h-72 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
             name="message"
             placeholder="Your message"
             required
@@ -72,9 +71,18 @@ export default function Contact() {
           <SubmitBtn />
         </form>
         <div className="animation_block">
-          <Spline scene="https://prod.spline.design/XSVVivwGFSZ7coKm/scene.splinecode" />
+          {/* <Spline scene="https://prod.spline.design/XSVVivwGFSZ7coKm/scene.splinecode" /> */}
+          {/* <Spline
+        scene="https://prod.spline.design/7QREAw3dM-ZW9ptV/scene.splinecode" 
+      /> */}
+        <Spline
+          scene="https://prod.spline.design/o3n1apAI89mRjbYv/scene.splinecode" 
+        />
         </div>
+        
       </div>
     </motion.section>
   );
 }
+
+

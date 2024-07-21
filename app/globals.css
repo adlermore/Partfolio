@@ -35,7 +35,7 @@ html.dark {
   overflow: hidden;
   position: relative;
   right: -45px;
-  top: -55px;
+  top: -30px;
 }
 .animation_block canvas{
   width: 600px !important;
