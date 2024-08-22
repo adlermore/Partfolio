@@ -122,7 +122,7 @@ export const projectsData = [
     imageUrl: cinemaImg,
   },
   {
-    title: "Velas",
+    title: "Velas Template",
     description:
       "Ship information  , yacht charters  and contact platform  ⚓",
       webLink:  "https://velas-eight.vercel.app/",
