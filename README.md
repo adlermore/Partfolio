@@ -1,6 +1,6 @@
 ## My Partfolio in Next js 
 
-- Latest Next.js 13 features
+- Latest Next.js 14 features
 - Next.js App Router
 - Next.js Server Actions
 - Client & Server Components
@@ -13,8 +13,3 @@
 - Fresh, modern UI design
 - Light & Dark mode
 - Responsive website
-
-## Setup
-
-1. Add RESEND_API_KEY environment variable in .env.local
-2. In the send-email.ts action file, change the "to" email to your own email
