@@ -121,14 +121,14 @@ export const projectsData = [
       tags: ["React", "RestFull", "scss", "Spring", "Json"],
     imageUrl: cinemaImg,
   },
-  {
-    title: "Velas Template",
-    description:
-      "Ship information  , yacht charters  and contact platform  ⚓",
-      webLink:  "https://velas-eight.vercel.app/",
-      tags: ["React", "Scss", "Slick", "Spring", "FancyBox" , "Validate" , "Routing" ],
-    imageUrl: velasImg,
-  },
+  // {
+  //   title: "Velas Template",
+  //   description:
+  //     "Ship information  , yacht charters  and contact platform  ⚓",
+  //     webLink:  "https://velas-eight.vercel.app/",
+  //     tags: ["React", "Scss", "Slick", "Spring", "FancyBox" , "Validate" , "Routing" ],
+  //   imageUrl: velasImg,
+  // },
   {
     title: "Eldorado.am",
     description:
