@@ -1,4 +1,4 @@
-## My Partfolio in Next js 
+## My Partfolio using Next js 
 
 - Latest Next.js 14 features
 - Next.js App Router
