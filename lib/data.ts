@@ -94,7 +94,7 @@ export const projectsData = [
     title: "Crypto Exchange ",
     description: "Buy / Sell / Exchange cryptocurrency with the best commission 🤝 !!!",
     webLink:  "https://cryptoexchangearmenia.am/",
-    tags: ["React", "Theree.js" , "SCSS" , "REST" , "GoogleMap", "EmailJS" , "UiKit"],
+    tags: ["React", "Theree.js" , "SCSS" , "REST API" , "GoogleMap", "EmailJS" , "UiKit"],
     imageUrl: cryptoImg,
   },
   {
@@ -102,7 +102,7 @@ export const projectsData = [
     description:
       "Table booking platform with animated solutions 🍽",
       webLink:  "https://bonapp.vercel.app/",
-      tags: ["React", "Scss", "spring", "mui", "mangoDb" , "Bootstrap"],
+      tags: ["React", "Scss", "Spring", "Mui", "mangoDb" , "Bootstrap"],
     imageUrl: bonappImg,
   },
   {
@@ -110,7 +110,7 @@ export const projectsData = [
     description:
       "The company produces natural fruit juices Artshani and Darvita 🍷",
       webLink:  "https://artshani.com/",
-      tags: ["HTML", "Scss", "Jquery", "bootstrap", "mySql" , "php"],
+      tags: ["HTML", "SCSS", "Jquery", "Bootstrap", "MySql" , "PhP"],
     imageUrl: artshaniImg,
   },
   {
@@ -118,7 +118,7 @@ export const projectsData = [
     description:
       "Import & Distribution Retail , Horeca and etc Food Service  🍛",
       webLink:  "https://www.freja.am/am/",
-      tags: ["React", "RestFull", "scss", "Spring", "Json"],
+      tags: ["Html5", "PHP", "RestFull", "SCSS", "Spring", "Json"],
     imageUrl: cinemaImg,
   },
   {
