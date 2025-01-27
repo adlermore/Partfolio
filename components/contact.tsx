@@ -10,6 +10,7 @@ import toast from "react-hot-toast";
 import Spline from '@splinetool/react-spline';
 
 export default function Contact() {
+  
   const { ref } = useSectionInView("Contact");
 
   return (
@@ -70,14 +71,13 @@ export default function Contact() {
           />
           <SubmitBtn />
         </form>
+
+        {/* Bot Animation Block */}
+        
         <div className="animation_block">
-          {/* <Spline scene="https://prod.spline.design/XSVVivwGFSZ7coKm/scene.splinecode" /> */}
-          {/* <Spline
-        scene="https://prod.spline.design/7QREAw3dM-ZW9ptV/scene.splinecode" 
-      /> */}
-        <Spline
-          scene="https://prod.spline.design/o3n1apAI89mRjbYv/scene.splinecode" 
-        />
+          <Spline
+            scene="https://prod.spline.design/o3n1apAI89mRjbYv/scene.splinecode" 
+          />
         </div>
         
       </div>
