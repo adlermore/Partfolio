@@ -71,8 +71,6 @@ export default function Contact() {
           />
           <SubmitBtn />
         </form>
-
-        {/* Bot Animation Block */}
         
         <div className="animation_block">
           <Spline
