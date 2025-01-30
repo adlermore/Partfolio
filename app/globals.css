@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Root and Dark Mode Styles */
 html {
   --line-color: #e5e7eb;
 }
@@ -10,128 +11,120 @@ html.dark {
   --line-color: rgba(255, 255, 255, 0.2);
 }
 
+/* Utility Styles */
 .borderBlack {
   @apply border border-black/10;
 }
 
+/* Contacts Section */
 .contacts_section {
-  display: grid;
+  @apply grid w-full mx-auto mt-12;
   grid-template-columns: 1fr 1fr;
-  width: 100%;
   max-width: 1052px;
-  margin: 0 auto;
-  margin-top: 50px;
 }
 
-.contacts_section form{
-  width: 100%;
-  margin-top: 50px;
+.contacts_section form {
+  @apply w-full mt-12;
 }
-#contact{
-  width: 100%;
+
+#contact {
+  @apply w-full;
 }
-.animation_block{
-  width: 100%;
-  overflow: hidden;
-  position: relative;
+
+/* Animation Block */
+.animation_block {
+  @apply w-full relative overflow-hidden;
   right: -45px;
   top: -30px;
 }
-.animation_block canvas{
+
+.animation_block canvas {
   width: 600px !important;
   height: 500px !important;
 }
+
+/* Back Home Button */
 .back-home-btn {
+  @apply absolute z-5 flex items-center justify-center transition duration-300;
   width: 120px;
   height: 45px;
   border-radius: 12px;
-  background: white;
+  background-color: white;
   color: black;
-  position: absolute;
   left: 50%;
   top: 50%;
-  z-index: 5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   transform: translate(-50%, -50%);
-  transition: 0.3s;
 }
-.projects_grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
+
+/* Projects Grid */
+.projects_grid {
+  @apply grid gap-5;
+  grid-template-columns: repeat(3, 1fr);
   max-width: 1050px;
 }
-.project_title{
-  transition: 0.3s;
+
+/* Project Title */
+.project_title {
+  @apply transition duration-300;
 }
-.project_title:hover{
-  color: rebeccapurple;
+
+.project_title:hover {
+  @apply text-purple-700;
 }
-.project_inner{
-  padding: 0;
-  display: flex;
-  flex-direction: column-reverse;
-  overflow: hidden;
+
+/* Project Inner */
+.project_inner {
+  @apply flex flex-col-reverse overflow-hidden p-0;
 }
-.project_skills{
-  margin-top: 15px !important;
+
+.project_skills {
+  @apply mt-4;
 }
-.project_inner:hover img{
-  transform: scale(1.2);
+
+.project_inner:hover img {
+  @apply transform scale-125;
 }
-.project_inner:hover .project_img:before{
-  background: rgba(0,0,0 ,  0.01);
+
+.project_inner:hover .project_img::before {
+  @apply bg-black bg-opacity-5;
 }
-.project_info{
-  padding: 20px;
+
+/* Project Info */
+.project_info {
+  @apply p-5;
 }
-.project_img{
+
+/* Project Image */
+.project_img {
+  @apply relative overflow-hidden;
   width: 100%;
-  position: relative;
   height: 200px;
-  overflow: hidden;
-}
-.project_img::before{
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 5;
-  bottom: 0;
-  transition: 0.5s;
-  background: rgba(0,0,0 ,  0.2);
 }
 
-.project_img img{
-  transition: 0.5s;
-  z-index: 1;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.project_img::before {
+  @apply absolute inset-0 z-5 transition duration-500 bg-black bg-opacity-20;
 }
 
-@media  (max-width: 575px) {
+.project_img img {
+  @apply absolute inset-0 w-full h-full object-cover transition duration-500;
+}
+
+/* Media Queries */
+@media (max-width: 575px) {
   .contacts_section {
     grid-template-columns: 1fr;
   }
+
   .animation_block {
-    right: auto;
+    right: 0;
     top: 0;
   }
+
   .animation_block canvas {
     width: 370px !important;
     height: 350px !important;
   }
+
   .projects_grid {
     grid-template-columns: 1fr;
   }
