@@ -9,7 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import circleImage from '../public/circleImage.jpeg'
+import circleImage from '../public/circleImage.jpeg';
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -41,7 +41,6 @@ export default function Intro() {
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl heroImage"
             />
           </motion.div>
-
           <motion.span
             className="absolute bottom-0 right-0 text-4xl"
             initial={{ opacity: 0, scale: 0 }}
@@ -57,7 +56,6 @@ export default function Intro() {
           </motion.span>
         </div>
       </div>
-
       <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}

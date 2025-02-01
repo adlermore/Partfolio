@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Ashot Karapetyan Personal Portfolio Website",
-  description: "I am a FrontEnd developer with 3+ years of experience. I enjoy building web apps. My focus is React.js/Next.js. I am currently looking for a New position as a software developer.",
+  description: "I am a FrontEnd developer with 4+ years of experience. I enjoy building web apps. My focus is React.js/Next.js. I am currently looking for a New position as a software developer.",
   creator: 'Ashot Karapetyan',
   keywords: ['Next.js', 'React', 'JavaScript'],
   generator: 'Next.js',
@@ -20,7 +20,7 @@ export const metadata = {
   openGraph: {
     images: [ogimage.src , '/ogImage.png'],
     title: "Ashot Karapetyan Personal Portfolio Website",
-    description: "I am a FrontEnd developer with 3+ years of experience. I enjoy building web apps. My focus is React.js/Next.js. I am currently looking for a New position as a software developer.",
+    description: "I am a FrontEnd developer with 4+ years of experience. I enjoy building web apps. My focus is React.js/Next.js. I am currently looking for a New position as a software developer.",
     creator: 'Ashot Karapetyan',
   },
 };
