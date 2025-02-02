@@ -80,7 +80,7 @@ export const experiencesData: ReadonlyArray<Experience> = [
     date: "2023 - 2024",
   },
   {
-    title: "React/Next js Developer",
+    title: "Senior Frontend Developer",
     location: "LOGIX SOFTWARE",
     description:
       "Developing and maintaining scalable web applications using React and Next.js. Writing clean, maintainable code in TypeScript. Implementing responsive designs and ensuring cross-browser compatibility. Optimizing application performance and loading speeds.      ",
@@ -149,6 +149,9 @@ export const skillsData = [
   "React",
   "React Native",
   "Next.js",
+  "Vue.js",
+  "Nuxt",
+  "Rust", 
   "Node.js",
   "Wordrpess",
   "Git",
@@ -157,6 +160,7 @@ export const skillsData = [
   "Redux / Toolkit",
   "RestFull",
   "GraphQL",
+  "Docker",
   "Prisma",
   "Tailwind",
   "SCSS/SASS",
