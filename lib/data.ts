@@ -138,7 +138,6 @@ export const projectsData = [
     imageUrl: eldoradoimg,
   },
 
-
 ] as const;
 
 export const skillsData = [
@@ -150,7 +149,7 @@ export const skillsData = [
   "React Native",
   "Next.js",
   "Vue.js",
-  "Nuxt",
+  "Nuxt.js",
   "Rust", 
   "Node.js",
   "Wordrpess",
@@ -166,8 +165,8 @@ export const skillsData = [
   "SCSS/SASS",
   "Bootsrtap",
   "Material UI",
-  "UiKit",
-  "Charka Ui",
+  "UIKit",
+  "Charka UI",
   "Docer",
   "Framer Motion",
   "GSAP",
@@ -175,4 +174,6 @@ export const skillsData = [
   "Php/Laravel",
   "Python",
   "C++ , MFC App",
+  "Arduino",
+  "Raspberry Pi"
 ] as const;
