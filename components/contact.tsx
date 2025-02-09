@@ -10,9 +10,7 @@ import toast from "react-hot-toast";
 import Spline from '@splinetool/react-spline';
 
 export default function Contact() {
-  
   const { ref } = useSectionInView("Contact");
-
   return (
 
     <motion.section
@@ -45,8 +43,7 @@ export default function Contact() {
           className="mt-20 flex flex-col dark:text-black"
           action={async (formData) => {
             const { error } = await sendEmail(formData);
-            if (error) {
-              toast.error(error);
+            if (error) { toast.error(error);
               return;
             }
             toast.success("Email sent successfully!");

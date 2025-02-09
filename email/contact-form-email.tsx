@@ -33,6 +33,10 @@ export default function ContactFormEmail({
                 You received the following message from the contact form
               </Heading>
               <Text>{message}</Text>
+              {/* <div>
+                <h2>Action Test Button</h2>
+                <section><button>Apply</button></section>
+              </div> */}
               <Hr />
               <Text>The sender's email is: {senderEmail}</Text>
             </Section>
