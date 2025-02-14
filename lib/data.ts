@@ -80,6 +80,14 @@ export const experiencesData: ReadonlyArray<Experience> = [
     date: "2023 - 2024",
   },
   {
+    title: "Software Enginer",
+    location: "NOSHN",
+    description:
+      "As a Team Lead and Senior Web Developer at NOSHN, I lead a team of talented developers to design, develop, and optimize high-performance web applications. With a focus on delivering scalable and user-friendly solutions, I oversee the entire development lifecycle, from architecture to deployment. My role involves collaborating closely with cross-functional teams, mentoring junior developers, and ensuring the implementation of best practices in coding, security, and performance. At NOSHN, I strive to drive innovation and excellence while consistently delivering high-quality products that meet the needs of our clients",
+    icon: React.createElement(FaReact),
+    date: "2024 - present",
+  },
+  {
     title: "Senior Frontend Developer",
     location: "LOGIX SOFTWARE",
     description:
