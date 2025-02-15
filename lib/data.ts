@@ -83,7 +83,7 @@ export const experiencesData: ReadonlyArray<Experience> = [
     title: "Software Enginer",
     location: "NOSHN",
     description:
-      "As a Team Lead and Senior Web Developer at NOSHN, I lead a team of talented developers to design, develop, and optimize high-performance web applications. With a focus on delivering scalable and user-friendly solutions, I oversee the entire development lifecycle, from architecture to deployment. My role involves collaborating closely with cross-functional teams, mentoring junior developers, and ensuring the implementation of best practices in coding, security, and performance. At NOSHN, I strive to drive innovation and excellence while consistently delivering high-quality products that meet the needs of our clients",
+      "As a Team Lead and Senior Web Developer at NOSHN, I lead a team of talented developers to design, develop, and optimize high-performance web applications. With a focus on delivering scalable and user-friendly solutions, I oversee the entire development lifecycle, from architecture to deployment.",
     icon: React.createElement(FaReact),
     date: "2024 - present",
   },
@@ -102,7 +102,7 @@ export const projectsData = [
     title: "Crypto Exchange ",
     description: "Buy / Sell / Exchange cryptocurrency with the best commission 🤝 !!!",
     webLink:  "https://cryptoexchangearmenia.am/",
-    tags: ["React", "Theree.js" , "SCSS" , "REST API" , "GoogleMap", "EmailJS" , "UiKit"],
+    tags: ["React", "Theree.js" , "SCSS" , "REST API" , "GoogleMap", "EmailJS"],
     imageUrl: cryptoImg,
   },
   {
