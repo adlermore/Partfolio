@@ -19,9 +19,9 @@ export default function Projects() {
       </p>
       <div className="projects_grid mt-[50px]">
         {projectsData.map((project, index) => (
-          <React.Fragment key={index}>
+          <div className="project_wrapper" key={index}>
             <Project {...project} />
-          </React.Fragment>
+          </div>
         ))}
       </div>
     </section>
