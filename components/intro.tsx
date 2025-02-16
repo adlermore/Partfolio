@@ -14,7 +14,6 @@ import circleImage from '../public/circleImage.jpeg';
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
-
   return (
     <section
       ref={ref}
@@ -67,7 +66,6 @@ export default function Intro() {
         building <span className="italic">web apps</span>. My focus is{" "}
         <span className="font-bold">React.js/Next.js</span>.
       </motion.h1>
-
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
@@ -102,7 +100,6 @@ export default function Intro() {
         >
           <BsLinkedin />
         </a>
-
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://github.com/adlermore"
