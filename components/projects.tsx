@@ -14,7 +14,12 @@ export default function Projects() {
       <SectionHeading>My projects</SectionHeading>
       <p className="mb-3 text-center leading-8 ">
       I worked on more than 70 projects, such as {" "}
-        <span className="font-medium">zigzag.am, miniso.am, lagalleria.am, uno-shouse.am, eldorado.am, artashat-vincon.am, fortunahome.am, altech.am, armauthor.am, arilori.am, redcross.am, ohmenergy.am </span> 
+        <span className="font-medium">
+          zigzag.am, goldcenter.am miniso.am, lagalleria.am, 
+          uno-shouse, eldorado.am, artashat-vincon.am, 
+          fortunahome.am, altech.am, armauthor.am, 
+          arilori.am, redcross.am, ohmenergy.am 
+        </span> 
        <br /><span className="italic">and others ...</span>
       </p>
       <div className="projects_grid mt-[50px]">
