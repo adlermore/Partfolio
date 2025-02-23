@@ -12,7 +12,6 @@ import Spline from '@splinetool/react-spline';
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
   return (
-
     <motion.section
       id="contact"
       ref={ref}
