@@ -8,7 +8,7 @@ export default function AnimationBanner() {
   return (
     <motion.section
       id="contact"
-      className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center"
+      className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center max-h-600px"
       initial={{
         opacity: 0,
       }}
