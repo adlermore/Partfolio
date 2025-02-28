@@ -1,9 +1,14 @@
 import React from "react";
 import { FaPaperPlane } from "react-icons/fa";
-import { experimental_useFormStatus as useFormStatus } from "react-dom";
+import { useState } from "react";
 
 export default function SubmitBtn() {
-  const { pending } = useFormStatus();
+  const [pending, setPending] = useState(false);
+
+  React.useEffect(() => {
+    const timer = setTimeout(() => setPending(!pending), 2000);
+    return () => clearTimeout(timer);
+  }, [pending]);
 
   return (
     <button
