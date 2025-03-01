@@ -68,6 +68,8 @@ export default function Contact() {
           />
           <SubmitBtn />
         </form>
+
+        
         <div className="animation_block">
           <Spline
             scene="https://prod.spline.design/o3n1apAI89mRjbYv/scene.splinecode" 
