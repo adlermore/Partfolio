@@ -22,10 +22,6 @@ export default function AnimationBanner() {
         once: true,
       }}
     >
-
-
-
-
       <div className="anim">
         <Spline
           scene="https://prod.spline.design/KdDcKxk6Llrw51GQ/scene.splinecode"

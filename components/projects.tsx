@@ -18,8 +18,8 @@ export default function Projects() {
           zigzag.am, goldcenter.am miniso.am, lagalleria.am, 
           uno-shouse, eldorado.am, artashat-vincon.am, 
           fortunahome.am, altech.am, armauthor.am, 
-          arilori.am, redcross.am, ohmenergy.am 
-        </span> 
+          arilori.am, redcross.am, ohmenergy.am , bonapp, New Hospice
+        </span>
        <br /><span className="italic">and others ...</span>
       </p>
       <div className="projects_grid mt-[50px]">
