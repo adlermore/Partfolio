@@ -9,7 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import circleImage from '../../public/circleImage.jpeg';
+import circleImage from '@/public/circleImage.jpeg';
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -70,9 +70,7 @@ export default function Intro() {
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{
-          delay: 0.1,
-        }}
+        transition={{delay: 0.1 }}
       >
         <Link
           href="#contact"
