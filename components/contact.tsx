@@ -11,6 +11,7 @@ import Spline from '@splinetool/react-spline';
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
+  const [loading, setLoading] = React.useState(false);
   return (
     <motion.section
       id="contact"
@@ -42,13 +43,16 @@ export default function Contact() {
           className="mt-20 flex flex-col dark:text-black"
           onSubmit={async (event) => {
             event.preventDefault();
+            setLoading(true);
             const formData = new FormData(event.target as HTMLFormElement);
             const { error } = await sendEmail(formData);
             if (error) {
               toast.error(error);
+              setLoading(false);
               return;
             }
             toast.success("Email sent successfully!");
+            setLoading(false);
           }}
         >
           <input
@@ -66,7 +70,7 @@ export default function Contact() {
             required
             maxLength={5000}
           />
-          <SubmitBtn />
+          <SubmitBtn loading={loading} />
         </form>
 
         

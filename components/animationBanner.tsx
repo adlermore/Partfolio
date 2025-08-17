@@ -7,7 +7,6 @@ import Spline from '@splinetool/react-spline';
 export default function AnimationBanner() {
   return (
     <motion.section
-      id="contact"
       className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center max-h-600px"
       initial={{
         opacity: 0,
@@ -22,9 +21,10 @@ export default function AnimationBanner() {
         once: true,
       }}
     >
-      <div className="anim">
+      <div className="hero_animation">
         <Spline
-          scene="https://prod.spline.design/KdDcKxk6Llrw51GQ/scene.splinecode"
+          scene="https://prod.spline.design/GDkofe5nSmHSUgCq/scene.splinecode"
+
         />
       </div>
     </motion.section>

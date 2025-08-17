@@ -18,7 +18,7 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="mb-28 max-w-[50rem] text-center scroll-mt-[100rem]"
+      className="mb-28 max-w-[50rem] mt-[-100px] text-center scroll-mt-[100rem]"
     >
       <div className="flex items-center justify-center">
         <div className="relative">
@@ -62,7 +62,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Ashot.</span> I'm a{" "}
         <span className="font-bold">FrontEnd developer</span> with{" "}
-        <span className="font-bold">4+ years</span> of experience. I enjoy
+        <span className="font-bold">5+ years</span> of experience. I enjoy
         building <span className="italic">web apps</span>. My focus is{" "}
         <span className="font-bold">React.js/Next.js</span>.
       </motion.h1>
@@ -85,7 +85,7 @@ export default function Intro() {
         </Link>
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/AshotKarapetyanCV2024.pdf"
+          href="/AshotKarapetyanCV.pdf"
           download
         >
           Download CV{" "}

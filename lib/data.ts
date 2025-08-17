@@ -9,7 +9,9 @@ import cinemaImg from "@/public/frejaimg.png";
 import velasImg from "@/public/velas.png";
 import bonappImg from "@/public/Bonapp.png";
 import artshaniImg from "@/public/artshani.png";
-
+import hexpays from "@/public/hex-pays.png";
+import zepyur from "@/public/zepyur.png";
+import goldcenter from "@/public/goldcenter.png";
 
 export const links = [
   {
@@ -98,12 +100,33 @@ export const experiencesData: ReadonlyArray<Experience> = [
 ] as const;
 
 export const projectsData = [
+    {
+    title: "HEX-PAYS",
+    description: "Modern payment system for ambitious teams 💰",
+    webLink:  "https://hex-pay.vercel.app/",
+    tags: ["TypeScript", "Next.js" , "Tailwind" , "GraphQL" , "Resend", "React-Email"],
+    imageUrl: hexpays,
+  },
   {
     title: "Crypto Exchange ",
     description: "Buy / Sell / Exchange cryptocurrency with the best commission 🤝 !!!",
     webLink:  "https://cryptoexchangearmenia.am/",
     tags: ["React", "Theree.js" , "SCSS" , "REST API" , "GoogleMap", "EmailJS"],
     imageUrl: cryptoImg,
+  },
+  {
+    title: "Zepyur",
+    description: "Zepyur - Residential Area in Armenia 🏡",
+    webLink:  "https://zepyur.am/",
+    tags: ["NextJS", "Canvas" , "I18n" , "ReactFancy" , "Formik", "Zod"],
+    imageUrl: zepyur,
+  },
+    {
+    title: "Market GoldCenter",
+    description: "Market GoldCenter - Online Marketplace in Armenia 🛒",
+    webLink:  "https://market.goldcenter.am/",
+    tags: ["NextJS", "Canvas" , "I18n" , "ReactFancy" , "Formik", "Zod"],
+    imageUrl: goldcenter,
   },
   {
     title: "Bonapp",

@@ -36,7 +36,7 @@ export default function Project({
             ))}
           </ul>
         </div>
-        <div className="project_img relative z-0">
+        <div className="project_img relative z-">
           <Image
             src={imageUrl}
             alt="Project I worked on"

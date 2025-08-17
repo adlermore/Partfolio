@@ -17,7 +17,7 @@ export default function Projects() {
         <span className="font-medium">
           zigzag.am, goldcenter.am miniso.am, lagalleria.am, 
           uno-shouse, eldorado.am, artashat-vincon.am, 
-          fortunahome.am, altech.am, armauthor.am, 
+          fortunahome.am, altech.am, armauthor.am, ifta.online,
           arilori.am, redcross.am, ohmenergy.am , bonapp, New Hospice
         </span>
        <br /><span className="italic">and others ...</span>
