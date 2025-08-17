@@ -2,7 +2,11 @@ import React from "react";
 import { FaPaperPlane } from "react-icons/fa";
 import { useState } from "react";
 
-export default function SubmitBtn({loading}) {
+interface SubmitBtnProps {
+  loading: boolean;
+}
+
+export default function SubmitBtn({ loading }: SubmitBtnProps) {
   
   return (
     <button
