@@ -12,6 +12,7 @@ import artshaniImg from "@/public/artshani.png";
 import hexpays from "@/public/hex-pays.png";
 import zepyur from "@/public/zepyur.png";
 import goldcenter from "@/public/goldcenter.png";
+import cinemaApp from "@/public/cinemaApp.png";
 
 export const links = [
   {
@@ -101,11 +102,11 @@ export const experiencesData: ReadonlyArray<Experience> = [
 
 export const projectsData = [
     {
-    title: "HEX-PAYS",
-    description: "Modern payment system for ambitious teams 💰",
-    webLink:  "https://hex-pay.vercel.app/",
+    title: "Cinama App",
+    description: "Modern Cinema app 🎥",
+    webLink:  "/",
     tags: ["TypeScript", "Next.js" , "Tailwind" , "GraphQL" , "Resend", "React-Email"],
-    imageUrl: hexpays,
+    imageUrl: cinemaApp,
   },
   {
     title: "Crypto Exchange ",
