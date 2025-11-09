@@ -88,7 +88,7 @@ export const experiencesData: ReadonlyArray<Experience> = [
     description:
       "As a Team Lead and Senior Web Developer at NOSHN, I lead a team of talented developers to design, develop, and optimize high-performance web applications. With a focus on delivering scalable and user-friendly solutions, I oversee the entire development lifecycle, from architecture to deployment.",
     icon: React.createElement(FaReact),
-    date: "2024 - present",
+    date: "2024 - 2025",
   },
   {
     title: "Senior Frontend Developer",
